@@ -1,0 +1,385 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin:0%;
+    background-image: url("bgroundlpu.JPG");
+}
+
+
+
+nav{
+    background:rgba(0,0,0,0.7);
+    
+}
+nav:after{
+    content:" ";
+    clear:left;
+    display:table;
+}
+nav .logo{
+
+    background-image:url("lpu-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 128px;
+    background-position-x:5%;
+    
+
+    font-family:'Times New Roman', Times, serif;
+    margin-top:14px;
+    float:left;
+    color:rgb(212, 209, 209);
+    font-size:47px;
+    font-weight:600;
+    padding-left:155px;
+}
+nav ul{
+    float:right;
+    list-style: none;
+    margin-right: 40px;
+    margin-left: 40px;
+    position:relative;
+}
+nav ul li{
+    float:left;
+    display:flow-root;
+    margin-top:-10px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    line-height:70px;
+    font-size:18px;
+    margin-right:20px;
+    padding: 8px 25px;
+    
+
+
+}
+nav ul li a:hover{
+    color:cyan;
+    border-radius:5px;
+    box-shadow:0 0 5px #33ffff,0 0 5px #66ffff;
+               
+}
+nav ul li ul {
+    direction:rtl;
+    position :absolute;
+    margin:0px;
+    width:221px;
+    float:none;
+    opacity:0;
+    visibility:hidden;
+    border-radius:10px;
+    background-color:rgba(0,0,0,0.7);
+   
+}
+nav ul li:hover>ul{
+    opacity:1;
+   visibility:visible;
+}
+nav ul ul li{
+    padding-top:-10px;
+}
+nav ul ul li a:hover{
+    color:#66ffff;
+    box-shadow:none;
+}
+#contact-list{
+    
+    width:100px;
+}
+nav ul li ul li{
+    padding:0px;
+}
+
+
+
+#li1{
+    background-image:url("home1\ \(1\).png");
+    position:left;
+    background-size:25px;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x: left;
+    background-blend-mode: darken;
+}
+#li2{
+    background-image:url("shop2\ \(1\).png");
+    position:left;
+    background-size:25px;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x: left;
+    background-blend-mode: darken;
+}
+#li3{
+    background-image:url("item2.png");
+    position:left;
+    background-size:25px;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x: left;
+    background-blend-mode: darken;
+}
+#li4{
+    background-image:url("cell\ 2\ \(2\).png");
+    position:left;
+    background-size:25px;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x: left;
+    background-blend-mode: darken;
+}
+
+#shop1{
+    margin-left: 8%;
+    margin-right:8%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+   height:320px;
+    border-radius:20px;
+
+    
+    padding-top:40px;
+
+    background-color:rgb(224, 219, 219);
+    background-image: url('Lovely Sweets.jpg');
+    background-position-x:right;
+    background-size:560px  365px;
+    
+    
+    background-repeat:no-repeat;
+
+    box-shadow: 3px 5px 3px 3px grey;
+    
+} 
+#shop2{
+    margin-left: 8%;
+    margin-right:8%;
+    margin-bottom: 100px;
+   
+    border-radius:20px;
+    height:320px;
+
+    padding-top:40px;
+
+    background-color:rgb(224, 219, 219);
+    background-image: url('cafe\ coffee\ day.jpg');
+    background-position-x:left;
+    background-size:512px 365px;
+    background-repeat:no-repeat;
+
+    box-shadow: -3px 5px 3px 3px grey;
+}
+
+#shop3{
+    margin-left: 8%;
+    margin-right:8%;
+    margin-bottom: 100px;
+    height:320px;
+    border-radius:20px;
+    
+
+    padding-top:40px;
+
+    background-color:rgb(224, 219, 219);
+    background-image: url('africana\ fod\ corner.jpg');
+    background-position-x:right;
+    background-size:560px  365px;
+    
+    
+    background-repeat:no-repeat;
+
+    box-shadow: 3px 5px 3px 3px grey;
+    
+    
+} 
+
+#shop4{
+   
+    margin-left: 8%;
+    margin-right:8%;
+    margin-bottom: 100px;
+   
+    border-radius:20px;
+    height:320px;
+
+    padding-top:40px;
+
+    background-color:rgb(224, 219, 219);
+    background-image: url('internet\ cafe.png');
+    background-position-x:left;
+    background-size:512px 365px;
+    background-repeat:no-repeat;
+
+    box-shadow: -3px 5px 3px 3px grey;
+}
+#heading1{
+    font-size:30px;
+    font-family: Arial;
+    font-weight: 100; 
+    padding:-10px; 
+    margin-top:-30px;
+    margin-left:235px;
+}
+#heading2{
+    font-size:30px;
+    font-family: Arial;
+    font-weight: 100;  
+    padding-right: 257px;
+    margin-top:-30px;
+
+} 
+
+.column{
+     font-family:'Lucida Handwriting';
+    margin:-10px 0px;
+    width:450px;
+    text-align: center;
+    word-spacing: 9px;
+    margin-left:120px;
+    
+   
+}
+.column2{
+    font-family:'Lucida Handwriting';
+    margin:-10px 170px;
+    width:400px;
+    text-align: center;
+    word-spacing: 9px;
+    
+}
+#text{
+margin-left:0px;
+}
+#but{
+    float:right;
+    margin-right:13px;
+    margin-left:-10px;
+    margin-top:18px;
+}
+#but3{
+    margin-top:62px
+}
+#but4{
+    float:right;
+    margin-right:13px;
+    margin-left:-10px;
+    margin-top:24px;
+}
+#buttom4{
+    float:left;
+    cursor:pointer;
+    padding :6px;
+    border-radius:10px;
+    margin-left:10px;
+    width: 25px;
+    height:20px;
+    color:white;
+
+    background-color:grey;
+    background-image:url('cell.jpg');
+    background-blend-mode:darken;
+    background-size:44px;
+    background-repeat: no-repeat;
+    background-position-x:left;
+
+    padding:10px 10px;
+    padding-left:10px;
+
+    transition-property:all;
+    transition-duration:  0.5s;
+    transition-timing-function:ease-out;
+
+    overflow:hidden;
+    margin-top: 15px;
+
+}
+#buttom4:hover{
+    width: 240px;
+    background-color:rgb(253, 103, 4);
+}
+    
+
+#buttom5{
+    float:left;
+    cursor:pointer;
+    padding :6px;
+    border-radius:10px;
+    margin-left:10px;
+    width: 25px;
+    height:20px;
+    color:white;
+
+    background-color:grey;
+    background-image:url('fedback2.jpg');
+    background-blend-mode:darken;
+    background-size:44px;
+    background-repeat: no-repeat;
+    background-position-x:left;
+
+    padding:10px 10px;
+    padding-left:10px;
+
+    transition-property:all;
+    transition-timing-function:ease-out;
+    transition-duration:  0.5s;
+
+    overflow:hidden;
+    margin-top: 15px;
+
+}
+#buttom5:hover{
+    width: 180px;
+    background-color:rgb(253, 103, 4);
+}
+    
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#footer1
+{
+    float:left;
+    
+    background-color: rgba(0,0,0,0.7);
+    height: 60px;
+}
+#footer1 pre{
+    padding-left:20px;
+    padding-top:10px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#facebook{
+    direction:rtl;
+    float:left;
+    
+    background-color: rgba(0,0,0,0.7);
+    height: 60px;
+    width:610px;
+}
+#google,#tweeter,#linkedin,#instagram{
+    direction:rtl;
+    float:left;
+    
+    background-color: rgba(0,0,0,0.7);
+    height: 60px;
+    width:100px;
+}
+#facebook img, #google img, #tweeter img, #linkedin img, #instagram img{
+    padding-top:10px ;
+    padding-right: 30px;
+}
+#facebook img:hover, #google img:hover, #tweeter img:hover, #linkedin img:hover, #instagram img:hover{
+    cursor:pointer;
+    
+}
+#top{
+     margin-left:95%;
+}
